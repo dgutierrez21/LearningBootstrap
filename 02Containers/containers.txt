@@ -1,0 +1,24 @@
+Bootstrap 5 Contenedores
+Aprendió del capítulo anterior que Bootstrap requiere un elemento contenedor para envolver los contenidos del sitio.
+
+Los contenedores se utilizan para rellenar el contenido dentro de ellos y hay dos clases de contenedores disponibles:
+
+La .container clase proporciona un contenedor de ancho fijo receptivo
+La .container-fluid clase proporciona un contenedor de ancho completo , que abarca todo el ancho de la ventana gráfica.
+
+Abra el siguiente ejemplo y cambie el tamaño de la ventana del navegador para ver que el ancho del contenedor cambiará en diferentes puntos de interrupción:
+
+ver ejemplo en el documento html
+
+Contenedor de fluidos
+Use la .container-fluidclase para crear un contenedor de ancho completo, que siempre abarcará todo el ancho de la pantalla ( widthsiempre 100%):
+
+Relleno de contenedores
+De forma predeterminada, los contenedores tienen relleno izquierdo y derecho, sin relleno superior o inferior. Por lo tanto, a menudo usamos utilidades de espaciado , como relleno y márgenes adicionales para que se vean aún mejor. Por ejemplo, .pt-5significa "agregar un relleno superior grande ":
+
+ver ejemplo 1 y 2
+
+Borde y color del contenedor
+Otras utilidades, como bordes y colores, también se usan a menudo junto con los contenedores:
+
+ver ejemplo 1
