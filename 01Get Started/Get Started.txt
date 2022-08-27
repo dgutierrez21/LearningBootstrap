@@ -1,0 +1,65 @@
+¿Qué es Bootstrap?
+Bootstrap es un marco front-end gratuito para un desarrollo web más rápido y fácil
+Bootstrap incluye plantillas de diseño basadas en HTML y CSS para tipografía, formularios, botones, tablas, navegación, modales, carruseles de imágenes y muchos otros, así como complementos de JavaScript opcionales.
+Bootstrap también le brinda la capacidad de crear fácilmente diseños receptivos
+¿Qué es el Diseño Web Responsivo?
+
+El diseño web receptivo se trata de crear sitios web que se ajusten automáticamente para verse bien en todos los dispositivos, desde teléfonos pequeños hasta computadoras de escritorio grandes.
+
+VER EJEMPLO 1 EN EL DOCUMENTO HTML
+
+Versiones de arranque
+Bootstrap 5 (lanzado en 2021) es la versión más nueva de Bootstrap (lanzado en 2013); con nuevos componentes, hoja de estilo más rápida y más capacidad de respuesta.
+
+Bootstrap 5 es compatible con las últimas versiones estables de todos los principales navegadores y plataformas. Sin embargo, Internet Explorer 11 y anteriores no son compatibles.
+
+Las principales diferencias entre Bootstrap 5 y Bootstrap 3 y 4 es que Bootstrap 5 ha cambiado a JavaScript estándar en lugar de jQuery.
+
+Nota: Bootstrap 3 y Bootstrap 4 todavía son compatibles con el equipo para correcciones de errores críticos y cambios en la documentación, y es perfectamente seguro continuar usándolos. Sin embargo, NO se les agregarán nuevas características.
+
+¿Por qué usar Bootstrap?
+Ventajas de Bootstrap:
+
+Fácil de usar: cualquier persona con conocimientos básicos de HTML y CSS puede comenzar a usar Bootstrap
+Funciones receptivas: el CSS receptivo de Bootstrap se ajusta a teléfonos, tabletas y computadoras de escritorio
+Enfoque móvil primero: en Bootstrap, los estilos móviles primero son parte del marco central
+Compatibilidad con navegadores: Bootstrap 5 es compatible con todos los navegadores modernos (Chrome, Firefox, Edge, Safari y Opera). Tenga en cuenta que si necesita soporte para IE11 y versiones anteriores, debe usar BS4 o BS3.
+
+¿Dónde obtener Bootstrap 5?
+Hay dos formas de comenzar a usar Bootstrap 5 en su propio sitio web.
+
+Puedes:
+
+Incluir Bootstrap 5 desde un CDN
+Descarga Bootstrap 5 desde getbootstrap.com
+Bootstrap 5 CDN
+Si no desea descargar y alojar Bootstrap 5 usted mismo, puede incluirlo desde una CDN (red de entrega de contenido).
+
+jsDelivr proporciona compatibilidad con CDN para CSS y JavaScript de Bootstrap:
+
+Una ventaja de usar Bootstrap 5 CDN:
+muchos usuarios ya han descargado Bootstrap 5 de jsDelivr cuando visitan otro sitio. Como resultado, se cargará desde el caché cuando visiten su sitio, lo que conduce a un tiempo de carga más rápido. Además, la mayoría de las CDN se asegurarán de que una vez que un usuario solicite un archivo, se sirva desde el servidor más cercano, lo que también conduce a un tiempo de carga más rápido.
+
+¿JavaScript?
+Bootstrap 5 usa JavaScript para diferentes componentes (como modales, información sobre herramientas, ventanas emergentes, etc.). Sin embargo, si solo usa la parte CSS de Bootstrap, no los necesita.
+
+2. Bootstrap 5 es móvil primero
+
+Bootstrap 5 está diseñado para responder a los dispositivos móviles. Los estilos móviles primero son parte del marco central.
+
+Para garantizar una representación adecuada y el zoom táctil, agregue la siguiente <meta>etiqueta dentro del <head>elemento:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+La width=device-widthparte establece el ancho de la página para seguir el ancho de pantalla del dispositivo (que variará según el dispositivo).
+
+La initial-scale=1parte establece el nivel de zoom inicial cuando el navegador carga la página por primera vez.
+
+3. Contenedores
+
+Bootstrap 5 también requiere un elemento contenedor para envolver el contenido del sitio.
+
+Hay dos clases de contenedores para elegir:
+
+La .containerclase proporciona un contenedor de ancho fijo receptivo
+La .container-fluidclase proporciona un contenedor de ancho completo , que abarca todo el ancho de la ventana gráfica.
+
