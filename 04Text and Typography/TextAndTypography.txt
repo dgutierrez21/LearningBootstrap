@@ -1,0 +1,57 @@
+Configuración predeterminada de Bootstrap 5
+Bootstrap 5 usa un valor predeterminado font-sizede 1 rem (16 px por defecto) y line-heightes 1.5.
+
+Además, todos los <p>elementos tienen margin-top: 0y margin-bottom: 1rem(16px por defecto).
+
+<h1> - <h6>
+Bootstrap 5 diseña encabezados HTML ( <h1>a <h6>) con un peso de fuente más audaz y un tamaño de fuente receptivo.
+
+También puede usar clases .h1en .h6otros elementos para que se comporten como encabezados si lo desea:
+
+Ver ejemplo 1
+
+Mostrar encabezados
+Los encabezados de visualización se utilizan para resaltar más que los encabezados normales (tamaño de fuente más grande y peso de fuente más liviano), y hay seis clases para elegir: .display-1a .display-6:
+
+ver ejemplo 2
+
+<pequeño>
+En Bootstrap 5, el elemento HTML <small>(y la .smallclase) se usa para crear un texto secundario más pequeño en cualquier encabezado:
+
+ver ejemplo 3
+
+<marcar>
+Bootstrap 5 tendrá estilo <mark>y .mark con un color de fondo amarillo y algo de relleno:
+
+ver ejemplo 4
+
+<abr>
+Bootstrap 5 diseñará el elemento HTML <abbr>con un borde inferior punteado y un cursor con un signo de interrogación al pasar el mouse:
+
+ver ejemplo 5
+
+<cita en bloque>
+Agregue la .blockquoteclase a <blockquote> cuando cite bloques de contenido de otra fuente. Y al nombrar una fuente, como "del sitio web de WWF", use la .blockquote-footerclase:
+
+ver ejemplo 6
+
+<dl>
+Bootstrap 5 diseñará el elemento HTML <dl>de la siguiente manera:
+
+ver ejemplo 7
+
+<código>
+Bootstrap 5 diseñará el elemento HTML <code>de la siguiente manera:
+
+ver ejemplo 8
+
+
+<kbd>
+Bootstrap 5 diseñará el elemento HTML <kbd>de la siguiente manera:
+
+ver ejemplo 9
+
+<antes>
+Bootstrap 5 diseñará el elemento HTML <pre>de la siguiente manera:
+
+ver ejemplo 10
