@@ -1,0 +1,64 @@
+Sistema de cuadrícula Bootstrap 5
+El sistema de cuadrícula de Bootstrap está construido con flexbox y permite hasta 12 columnas en la página.
+
+Si no desea usar las 12 columnas individualmente, puede agrupar las columnas para crear columnas más anchas:
+
+El sistema de cuadrícula responde y las columnas se reorganizarán automáticamente según el tamaño de la pantalla.
+
+Asegúrese de que la suma sume 12 o menos (no es necesario que use las 12 columnas disponibles).
+
+Clases de cuadrícula
+El sistema de cuadrícula Bootstrap 5 tiene seis clases:
+
+.col-(dispositivos extrapequeños: ancho de pantalla inferior a 576 px)
+.col-sm-(dispositivos pequeños - ancho de pantalla igual o mayor a 576px)
+.col-md-(dispositivos medianos - ancho de pantalla igual o mayor a 768px)
+.col-lg-(dispositivos grandes - ancho de pantalla igual o mayor a 992px)
+.col-xl-(dispositivos extragrandes: ancho de pantalla igual o superior a 1200 px)
+.col-xxl-(dispositivos xxlarge - ancho de pantalla igual o mayor a 1400px)
+Las clases anteriores se pueden combinar para crear diseños más dinámicos y flexibles.
+
+Sugerencia: cada clase se amplía, por lo que si desea establecer los mismos anchos para smy md, solo necesita especificar sm.
+
+Estructura básica de una cuadrícula Bootstrap 5
+La siguiente es una estructura básica de una cuadrícula de Bootstrap 5:
+
+<!-- Control the column width, and how they should appear on different devices -->
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+
+<!-- Or let Bootstrap automatically handle the layout -->
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+
+Primer ejemplo: crear una fila ( <div class="row">). Luego, agregue el número deseado de columnas (etiquetas con las .col-*-*clases apropiadas). La primera estrella (*) representa la capacidad de respuesta: sm, md, lg, xl o xxl, mientras que la segunda estrella representa un número, que debe sumar 12 para cada fila.
+
+Segundo ejemplo: en lugar de agregar un número a cada uno col, deje que Bootstrap maneje el diseño para crear columnas de igual ancho: dos "col"elementos = 50 % de ancho para cada columna, mientras que tres columnas = 33,33 % de ancho para cada columna. Cuatro columnas = 25% de ancho, etc. También puede usar .col-sm|md|lg|xl|xxlpara hacer que las columnas respondan.
+
+A continuación, hemos recopilado algunos ejemplos de diseños de cuadrícula básicos de Bootstrap 5.
+
+tres columnas iguales
+
+El siguiente ejemplo muestra cómo crear tres columnas de igual ancho, en todos los dispositivos y anchos de pantalla:
+
+ver ejemplo 1
+
+Columnas receptivas
+El siguiente ejemplo muestra cómo crear cuatro columnas de igual ancho comenzando en tabletas y escalando a escritorios extra grandes. En teléfonos móviles o pantallas de menos de 576 px de ancho, las columnas se apilarán automáticamente una encima de la otra :
+
+ver ejemplo 2
+
+Dos columnas de respuesta desiguales
+El siguiente ejemplo muestra cómo obtener dos columnas de varios anchos comenzando en tabletas y escalando a grandes escritorios adicionales:
+
+ver ejemplo 3

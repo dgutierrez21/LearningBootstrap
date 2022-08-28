@@ -14,6 +14,53 @@
     />
   </head>
   <body>
-   
+    <!-- EJEMPLO 1 -->
+    <div class="container-fluid mt-3">
+      <h1>Tres columnas de igual ancho</h1>
+
+      <p>
+        Nota: Intenta añadir un nuevo div con class="col" dentro de la clase row
+        - esto creará cuatro columnas de igual ancho.
+      </p>
+      <div class="row">
+        <div class="col p-3 bg-primary text-white">Col 1</div>
+        <div class="col p-3 bg-dark text-white">Col 2</div>
+        <div class="col p-3 bg-danger text-white">Col 3</div>
+        <div class="col p-3 bg-info text-white">Col 4</div>
+      </div>
+    </div>
+
+    <!-- EJEMPLO 2 -->
+
+    <div class="container-fluid mt-3">
+      <h1>Columnas Responsive</h1>
+      <p>Ajuste el tamaño de la ventana del navegador para ver el efecto.</p>
+      <p>
+        Las columnas se apilarán automáticamente unas sobre otras cuando la
+        pantalla tenga menos de 576px de ancho.
+      </p>
+
+      <div class="row">
+        <div class="col-sm-3 p-3 bg-primary text-white">Col 1</div>
+        <div class="col-sm-3 p-3 bg-danger text-white">Col 2</div>
+        <div class="col-sm-3 p-3 bg-info text-white">Col 3</div>
+        <div class="col-sm-3 p-3 text-bg-secondary text-white">Col 4</div>
+      </div>
+    </div>
+
+    <!-- EJEMPLO 3 -->
+
+    <div class="container-fluid mt-3">
+      <h1>Dos columnas responsivas desiguales</h1>
+      <p>Redimensiona la ventana del navegador para ver el efecto.</p>
+      <p>
+        Las columnas se apilarán automáticamente una sobre otra cuando la
+        pantalla tenga menos de 576px de ancho.
+      </p>
+      <div class="row">
+        <div class="col-sm-4 p-3 bg-primary text-white">Col 1</div>
+        <div class="col-sm-8 p-3 bg-danger text-white">Col 2</div>
+      </div>
+    </div>
   </body>
 </html>
