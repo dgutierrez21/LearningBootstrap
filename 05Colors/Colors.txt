@@ -1,0 +1,18 @@
+Colores de texto
+Bootstrap 5 tiene algunas clases contextuales que se pueden usar para proporcionar "significado a través de los colores".
+
+Las clases de colores de texto son: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body(color de cuerpo predeterminado/a menudo negro) y .text-light:
+
+
+ver ejemplo 1
+
+También puede agregar un 50 % de opacidad para texto en blanco o negro con las clases .text-black-50o :.text-white-50
+
+ver ejemplo 2
+
+Colores de fondo
+Las clases para los colores de fondo son : .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondaryy ..bg-dark.bg-light
+
+Tenga en cuenta que los colores de fondo no establecen el color del texto, por lo que en algunos casos querrá usarlos junto con una .text-* clase de color.
+
+ver ejemplo 3
