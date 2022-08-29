@@ -1,0 +1,21 @@
+Insignias
+Las insignias se utilizan para agregar información adicional a cualquier contenido:
+
+Use la .badgeclase junto con una clase contextual (como .bg-secondary) dentro <span> de los elementos para crear insignias rectangulares. Tenga en cuenta que las insignias se escalan para coincidir con el tamaño del elemento principal (si corresponde):
+
+ver ejemplo 1
+
+Insignias contextuales
+Use cualquiera de las clases contextuales ( .bg-*) para cambiar el color de una insignia:
+
+ver ejemplo 2
+
+Insignias de píldora
+Usa la .rounded-pillclase para hacer las insignias más redondas:
+
+ver ejemplo 3
+
+Insignia dentro de un Elemento
+Un ejemplo del uso de una insignia dentro de un botón:
+
+ver ejemplo 4
