@@ -1,0 +1,23 @@
+Esquinas redondeadas
+La .roundedclase agrega esquinas redondeadas a una imagen:
+
+ver ejemplo 1
+
+Circulo
+La .rounded-circleclase da forma a la imagen en un círculo:
+
+ver ejemplo 2
+
+Miniatura
+La .img-thumbnailclase da forma a la imagen en una miniatura (con borde):
+
+ver ejemplo 3
+
+Imágenes receptivas
+Las imágenes vienen en todos los tamaños. También las pantallas. Las imágenes receptivas se ajustan automáticamente para adaptarse al tamaño de la pantalla.
+
+Cree imágenes receptivas agregando una .img-fluidclase a la <img>etiqueta. La imagen se escalará muy bien al elemento principal.
+
+La .img-fluidclase se aplica max-width: 100%;y height: auto;a la imagen:
+
+ver ejemplo 4
