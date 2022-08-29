@@ -1,0 +1,19 @@
+Alertas
+Bootstrap 5 proporciona una manera fácil de crear mensajes de alerta predefinidos:
+
+Las alertas se crean con la clase , .alertseguida de una de las clases contextuales .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, o .alert-secondary:.alert-light.alert-dark
+
+ver ejemplo 1Enlaces de alerta
+Agregue la .alert-linkclase a cualquier enlace dentro del cuadro de alerta para crear "enlaces de colores coincidentes":
+
+ver ejemplo 2
+
+Alertas de cierre
+Para cerrar el mensaje de alerta, agregue una .alert-dismissible clase al contenedor de alerta. Luego agregue class="btn-close"y data-bs-dismiss="alert" a un enlace o un elemento de botón (cuando haga clic en esto, el cuadro de alerta desaparecerá).
+
+ver ejemplo 3
+
+Alertas animadas
+Las clases .fadey .showagregan un efecto de desvanecimiento al cerrar el mensaje de alerta:
+
+ver ejemplo 4
