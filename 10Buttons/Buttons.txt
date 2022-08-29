@@ -1,0 +1,37 @@
+Estilos de botones
+Bootstrap 5 proporciona diferentes estilos de botones:
+
+Ver ejemplo 1
+
+Las clases de botones se pueden usar en elementos <a>, <button>o <input>:
+
+ver ejemplo 2
+
+Contorno del botón
+Bootstrap 5 también proporciona ocho botones de contorno/borde.
+
+Mueva el mouse sobre ellos para ver un efecto de "desplazamiento" adicional:
+
+ver ejemplo 3
+
+Tamaños de botones
+Use la .btn-lgclase para botones grandes o .btn-smla clase para botones pequeños:
+
+ver ejemplo 4
+
+Botones de nivel de bloque
+Para crear un botón de nivel de bloque que abarque todo el ancho del elemento principal, use la .d-gridclase "ayudante" en el elemento principal:
+
+ver ejemplo 5
+
+Botones activos/deshabilitados
+Un botón se puede establecer en un estado activo (aparece presionado) o deshabilitado (no se puede hacer clic):
+
+La clase .active hace que un botón parezca presionado y el disabledatributo hace que no se pueda hacer clic en un botón. Tenga en cuenta que los elementos <a> no admiten el atributo deshabilitado y, por lo tanto, deben usar la .disabledclase para que aparezca visualmente deshabilitado.
+
+ver ejemplo 6
+
+Botones giratorios
+También puede agregar "spinners" a un botón
+
+ver ejemplo 7
