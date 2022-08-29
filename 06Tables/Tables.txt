@@ -19,3 +19,65 @@ Filas flotantes
 La .table-hoverclase agrega un efecto de desplazamiento (color de fondo gris) en las filas de la tabla:
 
 ver ejemplo 4
+
+Mesa negra/oscura
+La .table-darkclase agrega un fondo negro a la tabla:
+
+ver ejemplo 5
+
+Mesa de rayas oscuras
+Combine .table-darky .table-stripedpara crear una mesa oscura a rayas:
+
+ver ejemplo 6
+
+Mesa oscura flotante
+La .table-hoverclase agrega un efecto de desplazamiento (color de fondo gris) en las filas de la tabla:
+
+ver ejemplo 7
+
+Tabla sin bordes
+La .table-borderlessclase elimina los bordes de la tabla:
+
+ver ejemplo 8
+
+Clases Contextuales
+Las clases contextuales se pueden utilizar para colorear toda la tabla ( <table>), las filas de la tabla ( <tr>) o las celdas de la tabla ( <td>).
+
+Las clases contextuales que se pueden utilizar son:
+
+Clase	Descripción
+.table-primary	Azul: indica una acción importante
+.table-success	Verde: Indica una acción exitosa o positiva
+.table-danger	Rojo: indica una acción peligrosa o potencialmente negativa
+.table-info	Azul claro: Indica un cambio o acción informativa neutra
+.table-warning	Naranja: indica una advertencia que podría necesitar atención
+.table-active	Gris: aplica el color flotante a la fila o celda de la tabla
+.table-secondary	Gris: indica una acción un poco menos importante
+.table-light	Fondo gris claro de la tabla o de la fila de la tabla
+.table-dark	Fondo gris oscuro de la tabla o de la fila de la tabla
+
+ver ejemplo 9
+
+Colores de la cabecera de la mesa
+También puede usar cualquiera de las clases contextuales para agregar solo un color de fondo al encabezado de la tabla:
+
+ver ejemplo 10
+
+Mesa pequeña
+La .table-smclase hace que la mesa sea más pequeña cortando el relleno de la celda por la mitad:
+
+ver ejemplo 11
+
+Tablas receptivas
+La .table-responsiveclase agrega una barra de desplazamiento a la tabla cuando es necesario (cuando es demasiado grande horizontalmente):
+
+También puede decidir cuándo la tabla debe tener una barra de desplazamiento, según el ancho de la pantalla:
+
+Clase	ancho de pantalla
+.table-responsive-sm	< 576px
+.table-responsive-md	< 768px
+.table-responsive-lg	< 992px
+.table-responsive-xl	< 1200px
+.table-responsive-xxl	< 1400px
+
+ver ejemplo 12
