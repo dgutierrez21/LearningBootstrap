@@ -1,0 +1,21 @@
+Tabla básica
+Una mesa Bootstrap 5 básica tiene un acolchado ligero y divisores horizontales.
+
+La .tableclase agrega un estilo básico a una tabla:
+
+ver ejemplo 1
+
+filas de rayas
+La .table-stripedclase agrega rayas de cebra a una tabla:
+
+ver ejemplo 2
+
+Tabla Bordeada
+La .table-borderedclase agrega bordes en todos los lados de la tabla y las celdas:
+
+ver ejemplo 3
+
+Filas flotantes
+La .table-hoverclase agrega un efecto de desplazamiento (color de fondo gris) en las filas de la tabla:
+
+ver ejemplo 4
