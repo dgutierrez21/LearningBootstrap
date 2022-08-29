@@ -1,0 +1,25 @@
+Grupos de botones
+Bootstrap 5 le permite agrupar una serie de botones (en una sola línea) en un grupo de botones:
+
+Use un <div>elemento con clase .btn-grouppara crear un grupo de botones:
+
+nota: Grupos de botones uno al lado del otro
+Los grupos de botones están "en línea" de forma predeterminada, lo que hace que aparezcan uno al lado del otro cuando tiene varios grupos:
+
+ver ejemplo 1
+
+Sugerencia: en lugar de aplicar tamaños de botón a cada botón de un grupo, use class .btn-group-lgpara un grupo de botones grande o .btn-group-smpara un grupo de botones pequeño:
+
+ver ejemplo 2
+
+Grupos de botones verticales
+Bootstrap 5 también admite grupos de botones verticales:
+
+Usa la clase .btn-group-verticalpara crear un grupo de botones verticales:
+
+ver ejemplo 3
+
+Grupos de botones anidados y menús desplegables
+Anide grupos de botones para crear menús desplegables
+
+ver ejemplo 4
