@@ -1,0 +1,42 @@
+Paginación básica
+Si tiene un sitio web con muchas páginas, es posible que desee agregar algún tipo de paginación a cada página.
+
+Anterior
+1
+2
+3
+próximo
+Para crear una paginación básica, agregue la .paginationclase a un <ul>elemento. Luego agregue el .page-itema cada <li>elemento y una .page-linkclase a cada enlace dentro <li>:
+
+ver ejemplo 1
+
+Estado activo
+La .activeclase se utiliza para "resaltar" la página actual:
+
+ver ejemplo 2
+
+Estado deshabilitado
+La .disabledclase se utiliza para enlaces en los que no se puede hacer clic:
+
+ver ejemplo 3
+
+Tamaño de paginación
+Los bloques de paginación también se pueden dimensionar a un tamaño más grande o más pequeño:
+Agregue clase .pagination-lgpara bloques más grandes o .pagination-smpara bloques más pequeños:
+
+ver ejemplo 4
+
+Otra forma de paginación son las migas de pan:
+
+Fotos
+Verano 2017
+Italia
+Roma
+Las clases .breadcrumb y .breadcrumb-item indican la ubicación de la página actual dentro de una jerarquía de navegación:
+
+ver ejemplo 5
+
+Alineación de paginación
+Use clases de utilidad para cambiar la alineación de la paginación:
+
+ver ejemplo 6
