@@ -1,0 +1,20 @@
+Para crear un spinner/loader, usa la .spinner-borderclase:
+
+ver ejemplo 1
+
+Use cualquier utilidad de color de texto para agregar un color a la rueda giratoria:
+
+ver ejemplo 2
+
+Use la .spinner-growclase si desea que el girador/cargador crezca en lugar de "girar":
+
+ver ejemplo 3
+
+Usa .spinner-border-smo .spinner-grow-smpara crear una ruleta más pequeña:
+
+ver ejemplo 4
+
+Botones giratorios
+También puede agregar ruletas a un botón, con o sin texto:
+
+ver ejemplo 5
