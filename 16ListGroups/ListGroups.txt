@@ -1,0 +1,47 @@
+Grupos de listas básicas
+El grupo de lista más básico es una lista desordenada con elementos de lista:
+
+Para crear un grupo de lista básico, use un <ul>elemento con clase .list-groupy <li>elementos con clase .list-group-item:
+
+ver ejemplo 1
+
+Estado activo
+Utilice la .activeclase para resaltar el elemento actual:
+
+ver ejemplo 2
+
+Grupo de listas con elementos vinculados
+Para crear un grupo de listas con elementos vinculados, use <div>en lugar de <ul> y <a>en lugar de <li>. Opcionalmente, agregue la .list-group-item-actionclase si desea un color de fondo gris al pasar el mouse:
+
+ver ejemplo 3
+
+Artículo deshabilitado
+La .disabledclase agrega un color de texto más claro al elemento deshabilitado. Y cuando se usa en enlaces, eliminará el efecto de desplazamiento:
+
+ver ejemplo 4
+
+Vaciar/eliminar bordes
+Use la .list-group-flushclase para eliminar algunos bordes y esquinas redondeadas:
+
+ver ejemplo 5
+
+Grupos de listas numeradas
+Use la .list-group-numberedclase para crear elementos de lista con números delante de ellos:
+
+ver ejemplo 6
+
+Grupos de listas horizontales
+Si desea que los elementos de la lista se muestren horizontalmente en lugar de verticalmente (uno al lado del otro en lugar de uno encima del otro), agregue la .list-group-horizontalclase a .list-group:
+
+ver ejemplo 7
+
+Clases Contextuales
+Las clases contextuales se pueden usar para agregar color a los elementos de la lista:
+Las clases para colorear los elementos de la lista son: .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, y .list-group-item-primary, :list-group-item-darklist-group-item-light
+
+ver ejemplo 8
+
+Grupo de lista con insignias
+Combine .badgeclases con clases de utilidad/ayuda para agregar insignias dentro del grupo de lista:
+
+ver ejemplo 9
