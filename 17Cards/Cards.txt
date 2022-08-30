@@ -1,0 +1,35 @@
+Una tarjeta en Bootstrap 5 es un cuadro bordeado con algo de relleno alrededor de su contenido. Incluye opciones para encabezados, pies de página, contenido, colores, etc.
+
+Tarjeta Básica
+Se crea una tarjeta básica con la .cardclase y el contenido dentro de la tarjeta tiene una .card-bodyclase:
+
+ver ejemplo 1
+
+ncabezado y pié de página
+La .card-headerclase agrega un encabezado a la tarjeta y la .card-footerclase agrega un pie de página a la tarjeta:
+
+ver ejemplo 2
+
+Tarjetas contextuales
+Para agregar un color de fondo a la tarjeta, use clases contextuales ( .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondaryy ..bg-dark.bg-light
+
+ver ejemplo 3
+
+Títulos, texto y enlaces
+Título de la tarjeta
+Algún texto de ejemplo. Algún texto de ejemplo.
+
+Enlace de tarjeta Otro enlace
+Úselo .card-titlepara agregar títulos de tarjetas a cualquier elemento de encabezado. La .card-textclase se usa para eliminar los márgenes inferiores de un elemento <p> si es el último elemento secundario (o el único) dentro de .card-body. La .card-linkclase agrega un color azul a cualquier enlace y un efecto de desplazamiento.
+
+ver ejemplo 4
+
+Imágenes de tarjetas
+Agregue .card-img-topo .card-img-bottoma un <img>para colocar la imagen en la parte superior o inferior dentro de la tarjeta. Tenga en cuenta que hemos agregado la imagen fuera de la .card-bodypara abarcar todo el ancho:
+
+ver ejemplo 5
+
+Superposiciones de imagen de tarjeta
+Convierte una imagen en un fondo de tarjeta y utilízalo .card-img-overlay para agregar texto encima de la imagen:
+
+ver ejemplo 6
