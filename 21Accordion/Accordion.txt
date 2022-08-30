@@ -1,0 +1,11 @@
+Acordeón
+Cree acordeones que se contraen verticalmente en combinación con nuestro complemento Collapse JavaScript.
+El acordeón utiliza el colapso interno para hacerlo plegable. Para renderizar un acordeón expandido, agregue la .openclase en el archivo .accordion.
+El siguiente ejemplo muestra un acordeón simple al extender el componente de la tarjeta.
+
+Nota: Utilice el data-bs-parent atributo para asegurarse de que todos los elementos contraíbles bajo el padre especificado se cerrarán cuando se muestre uno de los elementos contraíbles.
+
+Siempre abierto
+Omita el data-bs-parentatributo en cada uno .accordion-collapsepara que los elementos de acordeón permanezcan abiertos cuando se abre otro elemento.
+
+ver ejemplo 1
