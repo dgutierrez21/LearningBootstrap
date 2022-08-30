@@ -1,0 +1,14 @@
+Básico Plegable
+Los plegables son útiles cuando desea ocultar y mostrar una gran cantidad de contenido:
+Ejemplo explicado
+La .collapseclase indica un elemento contraíble (un <div> en nuestro ejemplo); este es el contenido que se mostrará u ocultará con un clic de un botón.
+
+Para controlar (mostrar/ocultar) el contenido contraíble, agregue el data-bs-toggle="collapse"atributo a un elemento <a> o <button>. Luego agregue el data-bs-target="#id"atributo para conectar el botón con el contenido contraíble (<div id="demo">).
+
+Nota: para los elementos <a>, puede usar el hrefatributo en lugar del data-bs-target atributo:
+
+ver ejemplo 1
+
+De forma predeterminada, el contenido contraíble está oculto. Sin embargo, puede agregar la .showclase para mostrar el contenido de forma predeterminada:
+
+ver ejemplo 2
