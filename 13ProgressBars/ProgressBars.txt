@@ -1,0 +1,39 @@
+Barra de progreso básica
+Se puede usar una barra de progreso para mostrar qué tan lejos está un usuario en un proceso.
+Para crear una barra de progreso predeterminada, agregue una .progressclase a un elemento contenedor y agregue la .progress-barclase a su elemento secundario. Use la propiedad CSS widthpara establecer el ancho de la barra de progreso:
+
+ver ejemplo 1
+
+Altura de la barra de progreso
+
+
+
+La altura de la barra de progreso es 1rem(generalmente 16px) por defecto. Use la propiedad CSS heightpara cambiarlo. Tenga en cuenta que debe establecer la misma altura para el contenedor de progreso y la barra de progreso:
+
+ver ejemplo 2
+
+Etiquetas de barra de progreso
+Agregue texto dentro de la barra de progreso para mostrar el porcentaje visible:
+
+ver ejemplo 3
+
+Barras de progreso de colores
+De forma predeterminada, la barra de progreso es azul (principal). Use cualquiera de las clases de fondo contextual para cambiar su color:
+
+ver ejemplo 4
+
+Barras de progreso a rayas
+Usa la .progress-bar-stripedclase para agregar rayas a las barras de progreso:
+
+ver ejemplo 5
+
+Barra de progreso animada
+
+Agregue la .progress-bar-animatedclase para animar la barra de progreso:
+
+ver ejemplo 6
+
+Varias barras de progreso
+Las barras de progreso también se pueden apilar:
+
+ver ejemplo 7
