@@ -1,0 +1,50 @@
+Menú desplegable básico
+Un menú desplegable es un menú alternable que permite al usuario elegir un valor de una lista predefinida:
+
+Ejemplo explicado
+La .dropdownclase indica un menú desplegable.
+
+Para abrir el menú desplegable, use un botón o un enlace con una clase .dropdown-toggley el data-bs-toggle="dropdown"atributo.
+
+Agregue la .dropdown-menuclase a un <div>elemento para construir realmente el menú desplegable. Luego agregue la .dropdown-itemclase a cada elemento (enlaces o botones) dentro del menú desplegable.
+
+ver ejemplo 1
+
+Divisor desplegable
+La .dropdown-dividerclase se usa para separar enlaces dentro del menú desplegable con un borde horizontal delgado:
+
+ver ejemplo 2
+
+Encabezado desplegable
+La .dropdown-headerclase se usa para agregar encabezados dentro del menú desplegable:
+
+ver ejemplo 3
+
+Deshabilitar y elementos activos
+Resalte un elemento desplegable específico con la .activeclase (agrega un color de fondo azul).
+
+Para deshabilitar un elemento en el menú desplegable, use la .disabledclase (obtiene un color de texto gris claro y un ícono de "señal de prohibido estacionar" al pasar el mouse):
+
+ver ejemplo 4
+
+Posición desplegable
+También puede crear un menú "dropend" o "dropstart", agregando la clase .dropendo .dropstartal elemento desplegable. Tenga en cuenta que el signo de intercalación/flecha se agrega automáticamente:
+
+ver ejemplo 5
+
+Si desea que el menú desplegable se expanda hacia arriba en lugar de hacia abajo, cambie el elemento <div> con class="dropdown" a "dropup":
+
+ver ejemplo 6
+
+Texto desplegable
+La .dropdown-item-textclase se usa para agregar texto sin formato a un elemento desplegable, o se usa en enlaces para el estilo de enlace predeterminado.
+
+ver ejemplo 7
+
+Botones agrupados con un menú desplegable
+
+ver ejemplo 8
+
+Grupo de botones verticales con menú desplegable
+
+ver ejemplo 9
