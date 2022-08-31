@@ -1,0 +1,77 @@
+Barras de navegación
+Una barra de navegación es un encabezado de navegación que se coloca en la parte superior de la página:
+
+Barra de navegación básica
+Con Bootstrap, una barra de navegación puede extenderse o contraerse, según el tamaño de la pantalla.
+
+Se crea una barra de navegación estándar con la .navbar clase, seguida de una clase colapsada receptiva: .navbar-expand-xxl|xl|lg|md|sm (apila la barra de navegación verticalmente en pantallas extragrandes, extragrandes, grandes, medianas o pequeñas).
+
+Para agregar enlaces dentro de la barra de navegación, use un <ul>elemento (o un <div>) con class="navbar-nav". Luego agregue <li>elementos con una .nav-itemclase seguidos de un <a>elemento con una .nav-linkclase:
+
+ver ejemplo 1
+
+Barra de navegación vertical
+Elimina la .navbar-expand-*clase para crear una barra de navegación que siempre será vertical:
+
+ver ejemplo 2
+
+Barra de navegación centrada
+Agregue la .justify-content-centerclase para centrar la barra de navegación:
+
+ver ejemplo 3
+
+Barra de navegación coloreada
+
+Use cualquiera de las .bg-colorclases para cambiar el color de fondo de la barra de navegación ( .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondaryy ).bg-dark.bg-light
+
+Sugerencia: agregue un color de texto blanco a todos los enlaces en la barra de navegación con la .navbar-darkclase, o use la .navbar-lightclase para agregar un color de texto negro .
+
+Estado activo/deshabilitado : agregue la .activeclase a un <a>elemento para resaltar el enlace actual, o la .disabledclase para indicar que no se puede hacer clic en el enlace.
+
+ver ejemplo 4
+
+Logotipo
+La .navbar-brandclase se usa para resaltar la marca/logotipo/nombre del proyecto de su página:
+
+ver ejemplo 5
+
+Al usar la .navbar-brandclase con imágenes, Bootstrap 5 diseñará automáticamente la imagen para que se ajuste a la barra de navegación verticalmente.
+
+ver ejemplo 6
+
+Texto navegable
+Texto navegable
+Use la .navbar-textclase para alinear verticalmente cualquier elemento dentro de la barra de navegación que no sea un enlace (garantiza el relleno y el color del texto adecuados).
+
+ver ejemplo 7
+
+Muy a menudo, especialmente en pantallas pequeñas, desea ocultar los enlaces de navegación y reemplazarlos con un botón que debería revelarlos cuando se hace clic en él.
+
+Para crear una barra de navegación plegable, use un botón con . Luego envuelva el contenido de la barra de navegación (enlaces, etc.) dentro de un elemento <div> con , seguido de una identificación que coincida con la del botón: " thetarget ".class="navbar-toggler", data-bs-toggle="collapse" and data-bs-target="#thetarget"class="collapse navbar-collapse"data-bs-target
+
+Sugerencia: también puede eliminar la .navbar-expand-mdclase para ocultar SIEMPRE los enlaces de la barra de navegación y mostrar el botón de alternancia.
+
+ver ejemplo 8
+
+Barra de navegación con menú desplegable
+Las barras de navegación también pueden contener menús desplegables:
+
+ver ejemplo 9
+
+Formularios y botones de la barra de navegación
+También puede incluir formularios dentro de la barra de navegación:
+
+ver ejemplo 10
+
+Barra de navegación fija
+La barra de navegación también se puede fijar en la parte superior o inferior de la página.
+
+Una barra de navegación fija permanece visible en una posición fija (arriba o abajo) independientemente del desplazamiento de la página.
+
+La .fixed-topclase hace que la barra de navegación esté fija en la parte superior :
+
+ver ejemplo 11
+
+Use la .sticky-topclase para hacer que la barra de navegación sea fija/permanezca en la parte superior de la página cuando pase el desplazamiento . Nota: esta clase no funciona en IE11 y versiones anteriores (la tratará como position:relative).
+
+ ver ejemplo 12
