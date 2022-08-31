@@ -1,0 +1,51 @@
+Nav Menus
+Si desea crear un menú horizontal simple, agregue la .navclase a un <ul>elemento, seguido de .nav-item para cada uno <li>y agregue la .nav-linkclase a sus enlaces:
+
+ver ejemplo 1
+
+Navegación alineada
+Agregue la .justify-content-centerclase para centrar la navegación y la .justify-content-endclase para alinear la navegación a la derecha.
+
+ver ejemplo 2
+
+Navegación vertical
+Agregue la .flex-columnclase para crear una navegación vertical:
+
+ver ejemplo 3
+
+Pestañas
+Convierta el menú de navegación en pestañas de navegación con la .nav-tabsclase. Agregue la .activeclase al enlace activo/actual. Si desea que las pestañas se puedan alternar, vea el último ejemplo en esta página.
+
+ver ejemplo 4
+
+Pastillas
+
+Convierta el menú de navegación en píldoras de navegación con la .nav-pillsclase. Si desea que las píldoras se puedan alternar, vea el último ejemplo en esta página.
+
+ver ejemplo 5
+
+Pestañas/píldoras justificadas
+Justifique las pestañas/pastillas con la .nav-justifiedclase (igual ancho):
+
+ver ejemplo 6
+
+Pastillas con menú desplegable
+
+ver ejemplo 7
+
+pestañas con menu desplegable
+
+ver ejemplo 8
+
+Fichas alternables/dinámicas
+
+Para que las pestañas se puedan alternar, agregue el data-toggle="tab"atributo a cada enlace. Luego agregue una .tab-paneclase con una ID única para cada pestaña y envuélvala dentro de un <div>elemento con clase .tab-content.
+
+Si desea que las pestañas aparezcan y desaparezcan al hacer clic en ellas, agregue la .fadeclase a .tab-pane:
+
+ver ejemplo 9
+
+Píldoras conmutables/dinámicas
+El mismo código se aplica a las píldoras; solo cambie el atributo de alternancia de datos a data-toggle="pill":
+
+ver ejemplo 10
