@@ -1,0 +1,25 @@
+Offcanvas
+Offcanvas es similar a los modales (oculto de forma predeterminada y se muestra cuando está activado), excepto que a menudo se usa como un menú de navegación de la barra lateral.
+
+Cómo crear una barra lateral Offcanvas
+Ejemplo explicado
+La .offcanvasclase crea la barra lateral fuera del lienzo.
+
+La .offcanvas-startclase coloca el lienzo fuera del lienzo y lo hace de 400 px de ancho. Consulte los ejemplos a continuación para obtener más clases de posicionamiento.
+
+La .offcanvas-titleclase garantiza márgenes y altura de línea adecuados.
+
+Luego, agregue su contenido dentro de la .offcanvas-bodyclase.
+
+Para abrir la barra lateral de offcanvas, debe usar un <button>o un <a>elemento que apunte a la identificación del .offcanvascontenedor ( #demoen nuestro ejemplo).
+
+Para abrir la barra lateral fuera del lienzo con un <a>elemento, puede apuntar #democon el atributo href, en lugar de data-bs-targetatributo.
+
+El siguiente ejemplo muestra cómo crear una barra lateral fuera del lienzo:
+
+ver ejemplo 1
+
+Posición fuera del lienzo
+Use .offcanvas-start|end|top|bottompara colocar el lienzo fuera del lienzo a la izquierda, derecha, arriba o abajo:
+
+ver ejemplo 2
