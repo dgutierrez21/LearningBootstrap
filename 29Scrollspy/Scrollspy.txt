@@ -1,0 +1,19 @@
+Scrollspy
+
+Scrollspy se utiliza para actualizar automáticamente los enlaces en una lista de navegación según la posición de desplazamiento .
+
+Cómo crear un Scrollspy
+El siguiente ejemplo muestra cómo crear un scrollspy:
+
+ver ejemplo en el documento html
+
+Ejemplo explicado
+Agregue data-bs-spy="scroll"al elemento que debe usarse como área desplazable (a menudo, este es el <body>elemento).
+
+Luego agregue el data-bs-targetatributo con un valor de id o el nombre de clase de la barra de navegación ( .navbar). Esto es para asegurarse de que la barra de navegación esté conectada con el área desplazable.
+
+Tenga en cuenta que los elementos desplazables deben coincidir con el ID de los enlaces dentro de los elementos de la lista de la barra de navegación ( <div id="section1">coincidencias <a href="#section1">).
+
+El atributo opcional data-bs-offsetespecifica el número de píxeles que se desplazan desde la parte superior al calcular la posición de desplazamiento. Esto es útil cuando siente que los enlaces dentro de la barra de navegación cambian el estado activo demasiado pronto o demasiado pronto al saltar a los elementos desplazables. El valor predeterminado es 10 píxeles.
+
+Nota: Antes la versión 5.2 Requiere posicionamiento relativo: el elemento con data-bs-spy="scroll" requiere la propiedad de posición CSS , con un valor de "relativo" para funcionar correctamente.
