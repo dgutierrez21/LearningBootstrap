@@ -1,0 +1,22 @@
+Cómo crear un carrusel
+El siguiente ejemplo muestra cómo crear un carrusel básico con indicadores y controles:
+Ejemplo explicado
+Una descripción de lo que hace cada clase del ejemplo anterior:
+
+Clase  | Descripción
+.carousel | Crea un carrusel
+.carousel-indicators | Añade indicadores para el carrusel. Estos son los pequeños puntos en la parte inferior de cada diapositiva (que indican cuántas diapositivas hay en el carrusel, y qué diapositiva el usuario está viendo actualmente)
+.carousel-inner | Añade diapositivas al carrusel
+.carousel-item | Especifica el contenido de cada diapositiva
+.carousel-control-prev | Añade un botón izquierdo (anterior) al carrusel, que permite al usuario retroceder entre las diapositivas
+.carousel-control-next | Añade un botón derecho (siguiente) al carrusel, que permite al usuario avanzar entre las diapositivas
+.carousel-control-prev-icon | Se utiliza junto con .carousel-control-prev para crear un botón "anterior
+.carousel-control-next-icon | Se utiliza junto con .carousel-control-next para crear un botón "siguiente
+.slide | Añade un efecto de transición y animación CSS cuando se desliza de un elemento al siguiente. Elimine esta clase si no desea este efecto
+
+ver ejemplo 1
+
+Agregue elementos <div class="carousel-caption">dentro de cada uno <div class="carousel-item">para crear un título para cada diapositiva:
+
+ver ejemplo 2
+
