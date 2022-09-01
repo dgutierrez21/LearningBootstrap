@@ -1,0 +1,26 @@
+Toast
+El componente Toast es como un cuadro de alerta que solo se muestra durante un par de segundos cuando sucede algo (es decir, cuando el usuario hace clic en un botón, envía un formulario, etc.).
+
+Cómo crear un Toast
+
+Para Crear un Toast use la .toast clase y agregue un .toast-headery un .toast-body dentro de ella.
+
+Nota: los Toast están ocultos de forma predeterminada. Usa la .show clase si quieres mostrarla. Para cerrarlo, use un elemento <button> y agregue data-bs-dismiss="toast":
+
+ver ejemplo 1
+
+Para mostrar un toast con un clic de un botón, debe inicializarlo con JavaScript: seleccione el elemento especificado y llame al toast()método.
+
+El siguiente código mostrará todas las "toast" en el documento cuando haga clic en un botón:
+
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+
+ver ejemplo 2
