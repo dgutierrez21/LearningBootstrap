@@ -1,0 +1,35 @@
+Popovers
+El componente Popover es similar a la información sobre herramientas; es un cuadro emergente que aparece cuando el usuario hace clic en un elemento. La diferencia es que el popover puede contener mucho más contenido.
+
+Cómo crear un popover
+Para crear un popover, agregue el data-bs-toggle="popover" atributo a un elemento.
+Use el title atributo para especificar el texto del encabezado de la ventana emergente y use el data-bs-content atributo para especificar el texto que debe mostrarse dentro del cuerpo de la ventana emergente:
+
+Nota: los popovers deben inicializarse con JavaScript para que funcionen.
+
+El siguiente código habilitará todos los popovers en el documento:
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+ver ejemplo 1
+
+Ventanas emergentes de posicionamiento
+De forma predeterminada, la ventana emergente aparecerá en el lado derecho del elemento.
+
+Utilice el data-bs-placementatributo para establecer la posición de la ventana emergente en la parte superior, inferior, izquierda o derecha del elemento:
+
+Nota: Los atributos de ubicación no funcionan como espera si no hay suficiente espacio para ellos. Por ejemplo: si usa la ubicación superior en la parte superior de una página (donde no hay espacio para él), en su lugar, mostrará la ventana emergente debajo del elemento o a la derecha (donde sea que haya espacio para él).
+
+ver ejemplo 2
+
+Ventanas emergentes de cierre
+De forma predeterminada, la ventana emergente se cierra cuando vuelve a hacer clic en el elemento. Sin embargo, puede usar el data-bs-trigger="focus"atributo que cerrará la ventana emergente al hacer clic fuera del elemento:
+
+ver ejemplo 3
+
+
+Popover flotante
+Sugerencia: si desea que se muestre la ventana emergente cuando mueva el puntero del mouse sobre el elemento, use el data-bs-triggeratributo con un valor de " hover":
+
+ver el segundo boton del ejemplo 3
