@@ -1,0 +1,45 @@
+modales
+El componente Modal es un cuadro de diálogo/ventana emergente que se muestra en la parte superior de la página actual:
+
+Cómo crear un modal
+El siguiente ejemplo muestra cómo crear un modal básico:
+
+ver ejemplo 1
+
+Añadir animación
+Use la .fadeclase para agregar un efecto de desvanecimiento al abrir y cerrar el modal:
+
+ver ejemplo 2
+
+Tamaño modal
+Cambie el tamaño del modal agregando la .modal-sm clase para los modales pequeños (ancho máximo de 300 píxeles), .modal-lgla clase para los modales grandes (ancho máximo de 800 píxeles) o .modal-xlpara los modales extra grandes (ancho máximo de 1140 píxeles). El valor predeterminado es 500 px de ancho máximo.
+
+Agregue la clase de tamaño al <div>elemento con clase .modal-dialog:
+De forma predeterminada, los modales tienen un tamaño "mediano" (500 px de ancho máximo).
+
+ver ejemplo 3
+
+Modales de pantalla completa
+Si desea que el modal abarque todo el ancho y el alto de la página, use la .modal-fullscreenclase:
+
+Modales receptivos de pantalla completa
+También puede controlar cuándo el modal debe estar en pantalla completa, con las .modal-fullscreen-*-*clases:
+
+Class	Description
+.modal-fullscreen-sm-down	Fullscreen below 576px	
+.modal-fullscreen-md-down	Fullscreen below 768px	
+.modal-fullscreen-lg-down	Fullscreen below 992px	
+.modal-fullscreen-xl-down	Fullscreen below 1200px	
+.modal-fullscreen-xxl-down	Fullscreen below 1400px
+
+ver ejemplo 4
+
+Modal centrado
+Centre el modal vertical y horizontalmente dentro de la página, con la .modal-dialog-centered clase:
+
+ver ejemplo 5
+
+Desplazamiento modal
+Cuando tiene mucho contenido dentro del modal, se agrega una barra de desplazamiento a la página. Vea los ejemplos a continuación para entenderlo:
+
+ver ejemplo 6
