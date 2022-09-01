@@ -1,0 +1,31 @@
+Tooltips
+
+El componente Tooltip es un pequeño cuadro emergente que aparece cuando el usuario mueve el puntero del mouse sobre un elemento:
+
+Cómo crear un Tooltips
+
+Para crear un tooltip, agregue el data-bs-toggle="tooltip" atributo a un elemento.
+
+Utilice el title atributo para especificar el texto que debe mostrarse dentro del tooltip:
+
+Nota: La información sobre herramientas debe inicializarse con JavaScript para funcionar.
+
+El siguiente código habilitará toda la información sobre herramientas en el documento:
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+ver ejemplo 1
+
+tooltip personalizado
+Añadido en v5.2.0
+Puede personalizar la apariencia de la información sobre herramientas utilizando variables CSS . Establecemos una clase personalizada con data-bs-custom-class="custom-tooltip"el alcance de nuestra apariencia personalizada y la usamos para anular una variable CSS local.
+
+ver ejemplo 2
+
+tooltip posicionamiento
+De forma predeterminada, tooltip aparecerá en la parte superior del elemento.
+
+Utilice el data-bs-placement atributo para establecer la posición del tooltip en la parte superior, inferior, izquierda o derecha del elemento:
+
+ver ejemplo 3
