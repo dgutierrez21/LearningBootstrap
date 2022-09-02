@@ -10,3 +10,27 @@ ver ejemplo 1
 Textarea
 
 ver ejemplo 2
+
+Fila/cuadrícula de formulario (formularios en línea)
+Si desea que los elementos de su formulario aparezcan uno al lado del otro, use .rowy .col:
+
+ver ejemplo 3
+
+Puede cambiar el tamaño de las .form-controlentradas con .form-control-lgo .form-control-sm:
+
+ver ejemplo 4
+
+Deshabilitado y solo lectura
+Utilice los atributos deshabilitados y/o de solo lectura para deshabilitar el campo de entrada:
+
+ver ejemplo 5
+
+Entradas de texto sin formato
+Use la .form-control-plaintext clase para diseñar un campo de entrada sin bordes, pero mantenga los márgenes y el relleno adecuados:
+
+ver ejemplo 6
+
+Selector de color
+Para diseñar una entrada con type="color" correctamente, use la .form-control-colorclase:
+
+ver ejemplo 7
