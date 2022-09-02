@@ -1,0 +1,121 @@
+Utilidades / Clases auxiliares
+Bootstrap 5 tiene muchas clases de utilidad/ayuda para diseñar elementos rápidamente sin usar ningún código CSS.
+
+Borders
+
+Use las borderclases para agregar o eliminar bordes de un elemento:
+
+Border Width
+
+Utilice .border-1para .border-5cambiar el ancho del borde:
+
+Border Color
+
+Agregue un color al borde con cualquiera de las clases de color de borde contextual:
+
+Border Radius
+
+Agregue esquinas redondeadas a un elemento con las roundedclases:
+
+Center Align
+
+Centre un elemento con la .mx-autoclase (agrega margin-left y margin-right: auto):
+
+Width
+
+Establezca el ancho de un elemento con las clases w-* ( .w-25, .w-50, .w-75, .w-100, .mw-auto, .mw-100):
+
+Height
+
+Establecer la altura de un elemento con las clases h-* ( .h-25, .h-50, .h-75, .h-100, .mh-auto, .mh-100):
+
+Spacing
+
+Bootstrap 5 tiene una amplia gama de clases de margen de respuesta y utilidad de relleno. Funcionan para todos los puntos de interrupción: xs(<=576px), sm(>=576px), md(>=768px), lg(>=992px), xl(>=1200px) o xxl(>=1400px)):
+
+Las clases se utilizan en el formato: {property}{sides}-{size}para xsy {property}{sides}-{breakpoint}-{size}para sm, md, lgy .xlxxl
+
+Donde la propiedad es una de:
+
+m- conjuntosmargin
+p- conjuntospadding
+
+Donde lados es uno de:
+
+t- conjuntos margin-topopadding-top
+b- conjuntos margin-bottomopadding-bottom
+s- conjuntos margin-leftopadding-left
+e- conjuntos margin-rightopadding-right
+x- establece ambos padding-lefty padding-righto margin-leftymargin-right
+y- establece ambos padding-topy padding-bottomo margin-topymargin-bottom
+en blanco: establece un margino paddingen los 4 lados del elemento
+
+Donde el tamaño es uno de:
+
+0- conjuntos margino paddingpara0
+1- conjuntos margino paddingpara.25rem
+2- conjuntos margino paddingpara.5rem
+3- conjuntos margino paddingpara1rem
+4- conjuntos margino paddingpara1.5rem
+5- conjuntos margino paddingpara3rem
+auto- establece marginen automático
+
+Más ejemplos de espaciado
+.m-# / m-*-#	margen en todos los lados	
+.mt-# / mt-*-#	margen superior	
+.mb-# / mb-*-#	margen inferior	
+.ms-# / ms-*-#	margen izquierdo	
+.me-# / me-*-#	margen derecho	
+.mx-# / mx-*-#	margen izquierdo y derecho	
+.my-# / my-*-#	margen superior e inferior	
+.p-# / p-*-#	acolchado en todos los lados	
+.pt-# / pt-*-#	acolchado superior	
+.pb-# / pb-*-#	fondo acolchado	
+.ps-# / ps-*-#	relleno a la izquierda	
+.pe-# / pe-*-#	relleno derecho	
+.py-# / py-*-#	acolchado superior e inferior	
+.px-# / px-*-#	relleno a la izquierda y a la derecha
+
+Shadows
+
+Use las shadow-clases para agregar sombras a un elemento:
+
+Vertical Align
+
+Use las align-clases para cambiar la alineación de los elementos (solo funciona en elementos en línea, bloque en línea, tabla en línea y celda de tabla):
+
+Aspect Ratio
+
+Cree presentaciones de diapositivas o videos receptivos según el ancho del padre.
+Agregue la .ratioclase junto con una relación de aspecto de su elección .ratio-*a un elemento principal y agregue la inserción (video o iframe) dentro de él:
+
+Visibility
+
+Utilice las clases .visibleo para controlar la visibilidad de los elementos. Nota: estas clases no cambian el valor de visualización de CSS. Solo agregan visibility:visible o visibility:hidden:
+
+Close icon
+
+Use la .btn-closeclase para aplicar estilo a un icono de cierre. Esto se usa a menudo para alertas y modales.
+
+Screenreaders
+
+Use la .visually-hidden clase para ocultar un elemento en todos los dispositivos, excepto en los lectores de pantalla:
+
+Colors
+
+Como se describe en el capítulo Colores , aquí hay una lista de todas las clases de colores de texto y de fondo:
+
+Las clases de colores de texto son: .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body(color de cuerpo predeterminado/a menudo negro) y .text-light:
+
+Las clases de texto contextual también se pueden utilizar en enlaces:
+
+Muted link. Primary link. Success link. Info link. Warning link. Danger link. Secondary link. Dark grey link. Body/black link. Light grey link.
+
+También puede agregar un 50 % de opacidad para texto en blanco o negro con las clases .text-black-50o :.text-white-50
+
+Background Colors
+
+Las clases para los colores de fondo son : .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondaryy ..bg-dark.bg-light
+
+Tenga en cuenta que los colores de fondo no establecen el color del texto, por lo que en algunos casos querrá usarlos junto con una .text-*clase.
+
