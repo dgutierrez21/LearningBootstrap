@@ -1,0 +1,12 @@
+Formulario apilado
+Todos los elementos textuales <input> y <textarea> con clase .form-control obtienen el estilo de forma adecuado:
+
+También tenga en cuenta que agregamos una .form-labelclase a cada elemento de etiqueta para garantizar el relleno correcto.
+
+Las casillas de verificación tienen un marcado diferente. Están envueltos alrededor de un elemento contenedor con .form-check, y las etiquetas tienen una clase de .form-check-label, mientras que las casillas de verificación y los botones de opción usan .form-check-input.
+
+ver ejemplo 1
+
+Textarea
+
+ver ejemplo 2
