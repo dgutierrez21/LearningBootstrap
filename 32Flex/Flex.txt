@@ -1,0 +1,122 @@
+caja flexible
+La mayor diferencia entre Bootstrap 3 y Bootstrap 4 y 5 es que Bootstrap 5 ahora usa flexbox, en lugar de flotadores, para manejar el diseño.
+
+El módulo de diseño de caja flexible facilita el diseño de una estructura de diseño receptiva flexible sin usar flotación o posicionamiento.
+
+Para crear un contenedor de caja flexible y transformar elementos secundarios directos en elementos flexibles, use la d-flexclase:
+
+Para crear un contenedor flexbox en línea, use la d-inline-flexclase:
+
+Horizontal Direction
+Úselo .flex-rowpara mostrar los elementos flexibles horizontalmente (uno al lado del otro). Esto es predeterminado.
+
+Sugerencia: use .flex-row-reverse para alinear a la derecha la dirección horizontal:
+
+Vertical Direction
+Use .flex-column para mostrar los elementos flexibles verticalmente (uno encima del otro) o .flex-column-reverse para invertir la dirección vertical:
+
+Justify Content
+
+Use las .justify-content-*clases para cambiar la alineación de los elementos flexibles. Las clases válidas son start(predeterminadas) , end, o :centerbetweenaround
+
+Fill / Equal Widths
+
+Úselo .flex-fill en elementos flexibles para forzarlos a tener anchos iguales:
+
+Grow
+
+Úselo .flex-grow-1 en un artículo flexible para ocupar el resto del espacio. En el siguiente ejemplo, los dos primeros elementos flexibles ocupan el espacio necesario, mientras que el último elemento ocupa el resto del espacio disponible:
+
+Order
+
+Cambie el orden visual de elementos flexibles específicos con las .orderclases. Las clases válidas son de 0 a 5, donde el número más bajo tiene la prioridad más alta (el pedido 1 se muestra antes que el pedido 2, etc.):
+
+Auto Margins
+
+Agregue fácilmente márgenes automáticos para flexionar elementos con .ms-auto(empujar elementos a la derecha) o usando .me-auto(empujar elementos a la izquierda):
+
+Wrap
+
+Controle cómo se envuelven los elementos flexibles en un contenedor flexible con .flex-nowrap(predeterminado) .flex-wrapo .flex-wrap-reverse.
+
+Align Content
+
+Controle la alineación vertical de los elementos flexibles reunidos .align-content-* con las clases. Las clases válidas son .align-content-start(predeterminadas) , .align-content-end, .align-content-center, y ..align-content-between .align-content-around .align-content-stretch
+
+Nota: estas clases no tienen efecto en filas individuales de elementos flexibles.
+
+Align Items
+
+Alinear elementos
+Controle la alineación vertical de filas individuales de elementos flexibles con las .align-items-* clases. Las clases válidas son .align-items-start, .align-items-end, .align-items-center, .align-items-baseliney .align-items-stretch (predeterminado).
+
+Align Self
+
+Controle la alineación vertical de un elemento flexible específico con las .align-self-* clases. Las clases válidas son .align-self-start, .align-self-end, .align-self-center, .align-self-baseliney .align-self-stretch (predeterminado).
+
+Responsive Flex Classes
+
+Contenedor Flex	 	 
+.d-*-flex Crea un contenedor flexbox para diferentes pantallas	
+.d-*-inline-flex Crea un contenedor flexbox en línea para diferentes pantallas	
+Dirección	 	 
+.flex-*-row Muestra los elementos flex en horizontal en diferentes pantallas	
+.flex-*-row-reverse Muestra los elementos flex en horizontal, y alineados a la derecha, en diferentes pantallas	
+.flex-*-column Muestra los elementos flexibles verticalmente en diferentes pantallas	
+.flex-*-column-reverse Mostrar los elementos flex verticalmente, con orden invertido, en diferentes pantallas	
+
+Contenido justificado	 	 
+
+.justify-content-*-start Muestra los elementos flexibles desde el principio (alineados a la izquierda) en diferentes pantallas	
+.justify-content-*-end Muestra los elementos flexibles al final (alineados a la derecha) en diferentes pantallas	
+.justify-content-*-center Muestra los elementos flexibles en el centro de un contenedor flexible en diferentes pantallas	
+.justify-content-*-between Muestra los elementos flex en el "medio" en diferentes pantallas	
+.justify-content-*-around Muestra los elementos flexibles "alrededor" en diferentes pantallas	
+
+Relleno / Igualdad de anchura	 
+
+.flex-*-fill Forzar los elementos flex en anchos iguales en diferentes pantallas	
+
+Crecer	 	 
+
+.flex-*-grow-0 No hacer crecer los elementos en diferentes pantallas	 
+.flex-*-grow-1 Hacer que los elementos crezcan en diferentes pantallas	
+
+Encoger	 	 
+
+.flex-*-shrink-0 No hacer que los elementos se reduzcan en diferentes pantallas	 
+.flex-*-shrink-1 Hacer que los elementos se reduzcan en diferentes pantallas
+
+Ordenar	 	 
+
+.order-*-0-12 Cambiar el orden de 0 a 5 en pantallas pequeñas	
+
+Envolver	 	 
+
+.flex-*-nowrap No envolver los elementos en diferentes pantallas	
+.flex-*-wrap Envolver los elementos en diferentes pantallas	
+.flex-*-wrap-reverse Invertir la envoltura de los elementos en diferentes pantallas	
+
+Alinear el contenido	 	 
+
+.align-content-*-start Alinear los elementos reunidos desde el principio en diferentes pantallas	
+.align-content-*-end Alinear los elementos reunidos al final en diferentes pantallas	
+.align-content-*-center Alinear los elementos recogidos en el centro en diferentes pantallas	
+.align-content-*-around Alinear los elementos recogidos "alrededor" en diferentes pantallas	
+.align-content-*-stretch Estirar los elementos reunidos en diferentes pantallas	
+
+Alinear elementos	 	 
+
+.align-items-*-start Alinear filas individuales de elementos desde el principio en diferentes pantallas	
+.align-items-*-end Alinear filas individuales de elementos al final en diferentes pantallas	
+.align-items-*-center Alinear filas individuales de elementos en el centro en diferentes pantallas	
+.align-items-*-baseline Alinear filas individuales de elementos en la línea de base en diferentes pantallas	
+.align-items-*-stretch Alinear filas individuales de elementos en diferentes pantallas	
+
+Alinearse a sí mismo	 	
+
+.align-self-*-start Alinear un elemento flexible desde el principio en diferentes pantallas	
+.align-self-*-end Alinear un elemento flexible al final en diferentes pantallas	
+.align-self-*-center Alinear un elemento flexible en el centro en diferentes pantallas	
+.align-self-*-baseline Alinear un elemento flexible en la línea de base en diferentes pantallas	
+.align-self-*-stretch Alinear un elemento flexible en diferentes pantallas
