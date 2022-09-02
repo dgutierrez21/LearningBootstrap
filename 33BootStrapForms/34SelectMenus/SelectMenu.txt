@@ -1,0 +1,22 @@
+Seleccione el menú
+Los menús de selección se utilizan si desea permitir que el usuario elija entre varias opciones.
+
+Para diseñar un menú de selección en Bootstrap 5, agregue la .form-selectclase al elemento <select>:
+
+ver ejemplo 1
+
+Seleccione el tamaño del menú
+Utilice la clase .form-select-lg o .form-select-sm para cambiar el tamaño del menú de selección:
+
+ver ejemplo 2
+
+Use el disabled atributo para deshabilitar el menú de selección:
+
+ver ejemplo 3
+
+Listas de datos
+Bootstrap también diseñará listas de datos, que es una lista de opciones predefinidas para un elemento <input>:
+
+Elija su navegador de la lista:
+
+ver ejemplo 4
