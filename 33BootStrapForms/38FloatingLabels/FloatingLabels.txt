@@ -1,0 +1,18 @@
+Floating Labels / Animated Labels
+De forma predeterminada, cuando se usan etiquetas, normalmente aparecen en la parte superior del campo de entrada:
+
+Con las etiquetas flotantes, puede insertar la etiqueta dentro del campo de entrada y hacer que floten/se animen cuando haga clic en el campo de entrada:
+
+Notas sobre las etiquetas flotantes: Los elementos <label> deben ir después del elemento <input> y el placeholderatributo es obligatorio para cada elemento <input> (aunque no se muestre).
+
+ver ejemplo 1
+
+Textarea
+También funciona para áreas de texto:
+
+ver ejemplo 2
+
+Select Menus
+También puede usar "etiquetas flotantes" en menús selectos. Sin embargo, no flotarán ni se animarán. La etiqueta siempre aparecerá en la esquina superior izquierda, dentro del menú de selección:
+
+ver ejemplo 3
