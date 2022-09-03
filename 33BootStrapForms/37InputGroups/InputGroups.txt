@@ -1,0 +1,29 @@
+Input Groups
+La .input-group clase es un contenedor para mejorar una entrada agregando un icono, texto o un botón delante o detrás del campo de entrada como "texto de ayuda".
+
+Para diseñar el texto de ayuda especificado, use la .input-group-text clase:
+
+ver ejemplo 1
+
+Tamaño del grupo de entrada
+Use la .input-group-smclase para grupos de entrada pequeños y .input-group-lgpara grupos de entrada grandes:
+
+ver ejemplo 2
+
+Múltiples entradas y ayudantes
+Agregue múltiples entradas o complementos:
+
+ver ejemplo 3
+
+Input Group with Checkboxes and Radios
+También puede usar casillas de verificación o botones de radio en lugar de texto:
+
+vet ejemplo 4
+
+Input Group Buttons
+ver ejemplo 5
+
+Input Group with Dropdown Button
+Agregue un botón desplegable en el grupo de entrada. Tenga en cuenta que no necesita el envoltorio .dropdown, como lo haría normalmente.
+
+ver ejemplo 6

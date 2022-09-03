@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container p-5">
+      <h2 class="text-center my-4">Ejemplo 1</h2>
+      <p>
+        The .input-group class is a container to enhance an input by adding an
+        icon, text or a button in front or behind the input field as a "help
+        text".
+      </p>
+      <p>Use the .input-group-text class to style the specified help text.</p>
+
+      <form action="">
+        <div class="input-group mb-3">
+          <span class="input-group-text">@</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            name="usrname"
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Email"
+            name="email"
+          />
+          <span class="input-group-text">@example.com</span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <h2 class="text-center my-4">Ejemplo 2</h2>
+      <form action="">
+        <div class="input-group input-group-sm">
+          <span class="input-group-text">Small</span>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="input-group my-4">
+          <span class="input-group-text">Normal</span>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="input-group input-group-lg">
+          <span class="input-group-text">Large</span>
+          <input type="text" class="form-control" />
+        </div>
+      </form>
+
+      <h2 class="text-center my-4">Ejemplo 3</h2>
+      <form action="">
+        <!-- Multiple inputs -->
+        <div class="input-group mb-3">
+          <span class="input-group-text">Person</span>
+          <input type="text" class="form-control" placeholder="First Name" />
+          <input type="text" class="form-control" placeholder="Last name" />
+        </div>
+
+        <!-- Multiple addons / help text -->
+        <div class="input-group mb-3">
+          <span class="input-group-text">One</span>
+          <span class="input-group-text">Two</span>
+          <span class="input-group-text">Three</span>
+          <input type="text" class="form-control" />
+        </div>
+      </form>
+
+      <h2 class="text-center my-4">Ejemplo 4</h2>
+      <form action="">
+        <!-- Multiple inputs -->
+        <div class="input-group mb-3">
+          <div class="input-group-text">
+            <input type="checkbox" />
+          </div>
+          <input type="text" placeholder="Some text" class="form-control" />
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-text">
+            <input type="radio" name="" id="" />
+          </div>
+          <input type="text" class="form-control" placeholder="Some Text" />
+        </div>
+      </form>
+
+      <h2 class="text-center my-4">Ejemplo 5</h2>
+      <form action="">
+        <div class="input-group mb-3 mt-3">
+          <button class="btn btn-outline-primary">Basic Button</button>
+          <input type="text" class="form-control" placeholder="Some Text" />
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Some Text" />
+          <button class="btn btn-success">Go</button>
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Some Text" />
+          <button class="btn btn-primary">OK</button>
+          <button class="btn btn-danger">Cancel</button>
+        </div>
+      </form>
+
+      <h2 class="text-center my-4">Ejemplo 6</h2>
+      <form action="">
+        <div class="input-group my-3">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Link 1</a></li>
+            <li><a href="#" class="dropdown-item">Link 2</a></li>
+            <li><a href="#" class="dropdown-item">Link 3</a></li>
+          </ul>
+          <input type="text" class="form-control" placeholder="Username" />
+        </div>
+      </form>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
