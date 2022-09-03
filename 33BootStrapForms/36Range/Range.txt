@@ -1,0 +1,14 @@
+Custom Range
+Para diseñar un menú de rango, agregue la .form-rangeclase al elemento de entrada con type="range":
+
+ver ejemplo 1
+
+Steps
+De forma predeterminada, el intervalo entre los números de rango es 1. Puede cambiarlo utilizando el stepatributo:
+
+ver ejemplo 2
+
+Min and Max
+De forma predeterminada, el valor mínimo es 0 y el valor máximo es 100. Puede usar el atributo miny/o max cambiarlo:
+
+ver ejemplo 3
