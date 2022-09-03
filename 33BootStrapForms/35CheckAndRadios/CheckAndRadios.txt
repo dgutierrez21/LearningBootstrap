@@ -1,0 +1,22 @@
+Checkboxes
+Las casillas de verificación se utilizan si desea que el usuario seleccione cualquier cantidad de opciones de una lista de opciones preestablecidas.
+
+Ejemplo explicado
+Para aplicar estilo a las casillas de verificación, utilice un elemento envolvente class="form-check"para garantizar los márgenes adecuados para las etiquetas y las casillas de verificación.
+
+Luego, agregue la .form-check-labelclase para etiquetar elementos y .form-check-inputaplicar estilo a las casillas de verificación correctamente dentro del .form-checkcontenedor.
+
+Utilice el checkedatributo si desea que la casilla de verificación esté marcada de forma predeterminada.
+
+ver Ejemplo 1
+
+Radio buttons
+
+Los botones de radio se utilizan si desea limitar al usuario a una sola selección de una lista de opciones predeterminadas.
+
+ver Ejemplo 2
+
+Toggle Switches
+Si desea que su casilla de verificación tenga el estilo de un interruptor de palanca, use la .form-switchclase junto con el .form-checkcontenedor:
+
+ver Ejemplo 3
