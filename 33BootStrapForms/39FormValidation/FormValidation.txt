@@ -1,0 +1,31 @@
+Form Validation
+Puede usar diferentes clases de validación para proporcionar comentarios valiosos a los usuarios. 
+Agregue .was-validated o .needs-validation al <form>elemento, dependiendo de si desea proporcionar 
+comentarios de validación antes o después de enviar el formulario. Los campos de entrada tendrán 
+un borde verde (válido) o rojo (no válido) para indicar lo que falta en el formulario. 
+
+También puede agregar un mensaje .valid-feedback o .invalid-feedback para decirle al usuario explícitamente 
+qué falta o qué debe hacerse antes de enviar el formulario.
+
+código javascript para desactivar el envío de formularios si hay campos no válidos:
+
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+ver ejemplo 1
