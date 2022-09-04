@@ -1,0 +1,18 @@
+Vamos a crear un sistema de cuadrícula básico que comience apilado en dispositivos extra pequeños, antes de volverse horizontal en dispositivos más grandes.
+
+El siguiente ejemplo muestra un diseño simple de dos columnas "apilado a horizontal", lo que significa que dará como resultado una división del 50 %/50 % en todas las pantallas, excepto en las pantallas extra pequeñas, que se apilarán automáticamente (100 %):
+
+Sugerencia: los números en las .col-sm-*clases indican cuántas columnas debe abarcar el div (de 12). Por lo tanto, .col-sm-1abarca 1 columna, .col-sm-4abarca 4 columnas, .col-sm-6abarca 6 columnas, etc.
+
+Nota: asegúrese de que la suma sume 12 o menos (no es necesario que use las 12 columnas disponibles):
+
+ver ejemplo 1
+
+Sugerencia: puede convertir cualquier diseño de ancho completo en un diseño receptivo de ancho fijo cambiando la clase a :.container-fluid.container
+
+ver ejemplo 2
+
+Columnas de diseño automático
+En Bootstrap 5, hay una manera fácil de crear columnas de igual ancho para todos los dispositivos: simplemente elimine el número y solo use la clase en un número específico de elementos col . Bootstrap reconocerá cuántas columnas hay y cada columna tendrá el mismo ancho. Las clases de tamaño (sm, md, etc.) determinan cuándo deben responder las columnas:.col-size-*.col-size
+
+ver ejemplo 3

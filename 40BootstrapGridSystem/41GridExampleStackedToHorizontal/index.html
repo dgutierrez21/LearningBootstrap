@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid mt-3">
+      <h2 class="text-center my-4">Ejemplo 1</h2>
+      <p>
+        This example demonstrates a 50%/50% split on small, medium, large,
+        xlarge and xxlarge devices. On extra small devices, it will stack (100%
+        width).
+      </p>
+      <p>Resize the browser window to see the effect.</p>
+
+      <div class="row">
+        <div class="col-sm-6 p-3 bg-primary text-white">
+          Lorem, ipsum dolor...
+        </div>
+
+        <div class="col-sm-6 p-3 bg-dark text-white">Lorem, ipsum dolor...</div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <h2 class="text-center my-4">Ejemplo 2</h2>
+      <p>
+        This example demonstrates a 50%/50% split on small, medium, large,
+        xlarge and xxlarge devices. On extra small devices, it will stack (100%
+        width).
+      </p>
+      <p>Resize the browser window to see the effect.</p>
+      <div class="row">
+        <div class="col-sm-6 p-3 bg-primary text-white">
+          Lorem, ipsum dolor...
+        </div>
+        <div class="col-sm-6 p-3 bg-dark text-white">Lorem, ipsum dolor...</div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <h2 class="text-center my-4">Ejemplo 3</h2>
+      <p>
+        En Bootstrap 5, hay una forma sencilla de crear columnas de igual
+        anchura: basta con utilizar la clase .col-size en un número determinado
+        de elementos col. Bootstrap reconocerá cuántas columnas hay, y cada
+        columna tendrá el mismo ancho.
+      </p>
+      <p>
+        Dos columnas: 50% de ancho en todas las pantallas, excepto en las extra
+        pequeñas (100% de de ancho en pantallas de menos de
+        <strong>576px</strong> de ancho)
+      </p>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm bg-primary text-white p-3">1 of 2</div>
+          <div class="col-sm bg-dark text-white p-3">2 of 2</div>
+        </div>
+      </div>
+      <p>
+        Cuatro columnas: 25% de ancho en todas las pantallas, excepto en las
+        extra pequeñas (100% de ancho en pantallas de menos de
+        <strong>576px</strong> de ancho)
+      </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm bg-primary text-white p-3">1 of 4</div>
+          <div class="col-sm bg-dark text-white p-3">2 of 4</div>
+          <div class="col-sm bg-primary text-white p-3">3 of 4</div>
+          <div class="col-sm bg-dark text-white p-3">4 of 4</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
