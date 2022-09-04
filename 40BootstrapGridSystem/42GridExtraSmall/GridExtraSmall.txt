@@ -1,0 +1,22 @@
+Ejemplo de cuadrícula extra pequeña
+Supongamos que tenemos un diseño simple con dos columnas. Queremos que las columnas se dividan 25%/75% para TODOS los dispositivos.
+
+Agregaremos las siguientes clases a nuestras dos columnas:
+
+<div class="col-3">....</div>
+<div class="col-9">....</div>
+
+El siguiente ejemplo dará como resultado una división del 25 %/75 % en todos los dispositivos (extrapequeño, pequeño, mediano, grande, extragrande y extragrande).
+
+Nota: asegúrese de que la suma sume 12 o menos (no es necesario que use las 12 columnas disponibles):
+
+ver ejemplo 1
+
+Para una división del 33,3 %/66,6 %, usaría .col-4y .col-8(y para una división del 50 %/50 %, usaría .col-6y .col-6):
+
+ver ejemplo 2
+
+Columnas de diseño automático
+En Bootstrap 5, hay una manera fácil de crear columnas de igual ancho para todos los dispositivos: simplemente elimine el número .col-*y solo use la .colclase en un número específico de elementos col . Bootstrap reconocerá cuántas columnas hay y cada columna tendrá el mismo ancho:
+
+ver ejemplo 3
