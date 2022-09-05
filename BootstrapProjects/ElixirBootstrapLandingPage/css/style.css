@@ -1,5 +1,6 @@
 @import url(../css/clash-display.css);
 
+/* <!-- ****************** VARIABLES ****************** --> */
 :root {
   --c-dark: #212529;
   --c-brand: #4e57d4;
@@ -10,6 +11,8 @@
   --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
   --transition: all 0.5s ease;
 }
+
+/* <!-- ****************** RESET & HELPERS ****************** --> */
 
 body {
   font-family: var(--font-base);
@@ -50,4 +53,41 @@ img {
 .section-padding {
   padding-top: 140px;
   padding-bottom: 140px;
+}
+
+/* <!-- ****************** NAVBAR ****************** --> */
+
+.navbar {
+  box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--c-brand);
+}
+
+/* <!-- ****************** BTN ****************** --> */
+
+.btn {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 24px;
+}
+
+.btn-brand {
+  background-color: var(--c-brand);
+  color: #fff;
+  border-color: var(--c-brand);
+}
+
+.btn-brand:hover {
+  background-color: var(--c-brand-light);
+  border-color: var(--c-brand-light);
+  color: #fff;
 }
