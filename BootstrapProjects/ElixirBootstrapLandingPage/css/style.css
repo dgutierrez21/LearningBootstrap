@@ -91,3 +91,14 @@ img {
   border-color: var(--c-brand-light);
   color: #fff;
 }
+
+/* <!-- ****************** HERO ****************** --> */
+
+#hero {
+  background: linear-gradient(
+      rgba(var(--c-brand-rgb), 0.5),
+      rgba(var(--c-brand-rgb), 0.5)
+    ),
+    url(../img/hero-1.jpg) center;
+  background-size: cover;
+}
