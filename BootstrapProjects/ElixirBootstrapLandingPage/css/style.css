@@ -56,6 +56,10 @@ img {
   padding-bottom: 140px;
 }
 
+.theme-shadow {
+  box-shadow: var(--box-shadow);
+}
+
 /* <!-- ****************** NAVBAR ****************** --> */
 
 .navbar {
@@ -133,4 +137,40 @@ img {
   color: var(--c-brand);
   font-size: 34px;
   flex: none;
+}
+
+/* <!-- ****************** SERVICES ****************** --> */
+
+.service {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.service::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: rgba(var(--c-brand-rgb), 0.2);
+  right: 0;
+  bottom: 0;
+  transition: var(--transition);
+}
+
+.service:hover::after {
+  background: var(--c-brand);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.service:hover h5,
+.service:hover p {
+  color: #fff;
+}
+
+.service:hover .iconbox {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
 }
