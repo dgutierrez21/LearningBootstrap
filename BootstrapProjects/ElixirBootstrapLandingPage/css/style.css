@@ -60,6 +60,24 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.image-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-zoom-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-zoom-wrapper img {
+  transition: var(--transition);
+}
+
+.image-zoom:hover .image-zoom-wrapper img {
+  transform: scale(1.1);
+}
+
 /* <!-- ****************** NAVBAR ****************** --> */
 
 .navbar {
@@ -184,4 +202,21 @@ img {
     ),
     url(../img/counter.jpg) center;
   background-size: cover;
+}
+
+/* <!-- ****************** PORTFOLIO ****************** --> */
+
+.portfolio-item .iconbox {
+  position: absolute;
+  background-color: var(--c-brand);
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.portfolio-item:hover .iconbox {
+  opacity: 1;
+  top: 50%;
 }
