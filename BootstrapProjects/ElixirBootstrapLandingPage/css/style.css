@@ -260,3 +260,35 @@ img {
   bottom: 24px;
   opacity: 1;
 }
+
+/* <!-- ****************** CONTACT ****************** --> */
+
+#contact {
+  position: relative;
+  z-index: 2;
+}
+
+#contact::after {
+  position: absolute;
+  content: "";
+  height: 70%;
+  width: 100%;
+  background: linear-gradient(
+      rgba(var(--c-brand-rgb), 0.8),
+      rgba(var(--c-brand-rgb), 0.8)
+    ),
+    url(../img/counter.jpg) center;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#contact .form-control {
+  border-radius: 0;
+}
+
+#contact .form-control:focus {
+  box-shadow: none;
+  border-color: var(--c-brand);
+}
