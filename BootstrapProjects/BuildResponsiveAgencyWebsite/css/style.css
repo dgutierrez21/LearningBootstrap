@@ -1,3 +1,79 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&amp;display=swap");
 
+/* ***************** GENERAL STYLES ***************** */
+
+body {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  color: #717e96;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  color: #020312;
+  margin: 0;
+  line-height: 110%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  color: #020312;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: 0.5s ease-out;
+}
+
+a p {
+  color: #717e96;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
