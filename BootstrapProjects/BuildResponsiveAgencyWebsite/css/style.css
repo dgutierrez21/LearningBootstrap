@@ -206,3 +206,28 @@ ul li {
 .home-intro ul li:last-child {
   margin-left: 15px;
 }
+
+/* ***************** ABOUT ***************** */
+.about .content-image img {
+  width: 100%;
+}
+
+.about .content h3 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.about .content ul li {
+  color: #020312;
+  font-weight: 600;
+}
+
+.about .content ul li .circle-list {
+  background: #05346b;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+}
