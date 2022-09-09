@@ -111,12 +111,36 @@ ul li {
   border: 0;
 }
 
-.navbar .navbar-toggler i {
-  font-size: 28px;
-}
-
 .navbar .navbar-toggler:focus {
   outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler.active div:nth-child(1) {
+  transform: rotate(40deg);
+  transform-origin: left;
+}
+
+.navbar-toggler.active div:nth-child(2) {
+  transform: translateX(35px);
+  opacity: 0;
+}
+
+.navbar-toggler.active div:nth-child(3) {
+  transform: rotate(-40deg);
+  transform-origin: left;
+}
+
+.navbar-toggler div:nth-child(2) {
+  margin: 7px 0;
+}
+
+.h-line {
+  width: 34px;
+  height: 4px;
+  background-color: #020312;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .navbar.navbar-fixed {
