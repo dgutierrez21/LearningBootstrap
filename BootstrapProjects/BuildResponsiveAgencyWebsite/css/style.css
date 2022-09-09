@@ -110,6 +110,38 @@ ul li {
   transition: 0.5 ease-out;
 }
 
+.section {
+  padding: 90px 0;
+}
+
+.section-bottom-only {
+  padding-bottom: 90px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-title .title-top {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #05346b;
+}
+
+.section-title h3 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.section-title.section-title-left {
+  text-align: left;
+}
+
+.section-title .title-desc {
+  margin-top: 15px;
+}
+
 /* ***************** NAVBAR ***************** */
 
 .navbar {
@@ -230,4 +262,48 @@ ul li {
   display: inline-block;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+/* ***************** PROCESS WORK ***************** */
+
+.process-work .row {
+  min-height: 20rem;
+}
+
+.process-work .row .col-lg-3:nth-last-child(odd) .content {
+  background: #05346b;
+}
+
+.process-work .row .col-lg-3:nth-last-child(odd) .content i,
+.process-work .row .col-lg-3:nth-last-child(odd) .content h5,
+.process-work .row .col-lg-3:nth-last-child(odd) .content p {
+  color: #fff;
+}
+
+.process-work .content {
+  padding: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #f8f8fc;
+  transition: all 0.3s ease;
+}
+
+.process-work .content:hover {
+  background-color: #05346b;
+  transition: all 0.3s ease;
+}
+
+.process-work .content:hover i,
+.process-work .content:hover h5,
+.process-work .content:hover p {
+  color: #fff;
+}
+
+.process-work .content i {
+  color: #05346b;
+  font-size: 60px;
+}
+
+.process-work .content h5 {
+  margin-bottom: 10px;
 }
