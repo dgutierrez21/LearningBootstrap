@@ -8,3 +8,18 @@ navbarButton.addEventListener("click", () => {
     navbarButton.classList.remove("active");
   }
 });
+
+/* ***************** PORTFOLIO ***************** */
+$(function () {
+  "use strict";
+
+  // portfolio filter
+  $(".filter-container").imagesLoaded(function () {
+    var filterizr = $(".filter-container").filterizr();
+  });
+
+  $(".portfolio-filter-menu li").on("click", function () {
+    $(".portfolio-filter-menu li").removeClass("active");
+    $(this).addClass("active");
+  });
+});
