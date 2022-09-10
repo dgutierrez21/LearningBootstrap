@@ -22,4 +22,15 @@ $(function () {
     $(".portfolio-filter-menu li").removeClass("active");
     $(this).addClass("active");
   });
+
+  // magnific popup
+  $(".portfolio").each(function () {
+    $(this).magnificPopup({
+      delegate: ".portfolio-popup",
+      type: "image",
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
 });
