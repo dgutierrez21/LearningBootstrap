@@ -442,3 +442,28 @@ ul li {
   top: 9px;
   opacity: 0.5;
 }
+
+/* ***************** SERVICES ***************** */
+.words-section .content {
+  background: #717e96;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.words-section .content h4 {
+  color: white;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.words-section .content h4:first-child {
+  margin-bottom: 5px;
+}
+
+.words-section .content .button-wrap {
+  text-align: right;
+}
+
+.words-section .content .button-wrap .button {
+  margin-top: 0;
+}
