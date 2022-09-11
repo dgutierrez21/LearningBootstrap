@@ -467,3 +467,23 @@ ul li {
 .words-section .content .button-wrap .button {
   margin-top: 0;
 }
+
+/* ***************** NEWS ***************** */
+.news .content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 37px -8px rgba(0, 0, 0, 0.53);
+}
+
+.news .content img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.news .content h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
