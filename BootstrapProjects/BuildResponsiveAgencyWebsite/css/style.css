@@ -392,3 +392,53 @@ ul li {
   transform: scale(1.05);
   box-shadow: 0 0 37px -8px rgba(0, 0, 0, 0.53);
 }
+
+/* ***************** SERVICES ***************** */
+.services .content {
+  background: #efefef;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.services .content:hover {
+  background: #05346b;
+}
+
+.services .content:hover i,
+.services .content:hover h5,
+.services .content:hover p {
+  color: white;
+}
+
+.services .content .serv-icon {
+  display: inline-flex;
+  position: relative;
+}
+
+.services .content i {
+  font-size: 60px;
+  color: #05346b;
+}
+
+.services .content .clone-icon i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.services .content h5 {
+  margin-bottom: 10px;
+}
+
+.services .content:hover .clone-icon i {
+  position: absolute;
+  right: 0;
+  left: -14px;
+  top: 9px;
+  opacity: 0.5;
+}
