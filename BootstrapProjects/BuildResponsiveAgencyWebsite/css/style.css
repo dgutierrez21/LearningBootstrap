@@ -487,3 +487,48 @@ ul li {
   margin-bottom: 15px;
   transition: all 0.3s ease;
 }
+
+/* ***************** CONTACT ***************** */
+.contact .content h5 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.contact .content h5:first-child {
+  margin-top: 0;
+}
+
+.contact .content-right {
+  text-align: center;
+}
+
+.contact .button {
+  margin-top: 0;
+}
+
+.contact form input,
+.contact form textarea {
+  background: #efefef;
+  padding: 14px 20px;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.501);
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  background-color: #05346b;
+  color: white;
+}
+.contact form input:focus::placeholder,
+.contact form textarea:focus::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
