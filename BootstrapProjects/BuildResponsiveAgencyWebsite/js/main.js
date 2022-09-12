@@ -34,3 +34,13 @@ $(function () {
     });
   });
 });
+
+/* ***************** INSERT SHADOW TO NAV ON SCROLLING ***************** */
+const scrollNav = () => {
+  const nav = document.querySelector(".navbar");
+  // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
+  this.scrollY >= 50
+    ? nav.classList.add("scrollNav")
+    : nav.classList.remove("scrollNav");
+};
+window.addEventListener("scroll", scrollNav);
