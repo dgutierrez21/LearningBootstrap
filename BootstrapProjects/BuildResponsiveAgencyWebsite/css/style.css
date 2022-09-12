@@ -145,7 +145,7 @@ ul li {
 /* ***************** NAVBAR ***************** */
 
 .navbar {
-  background: transparent;
+  background: white;
   transition: 0.5 ease-out;
   padding: 15px 0;
 }
@@ -160,7 +160,7 @@ ul li {
 }
 
 .navbar .navbar-nav li .nav-link {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: #020312;
   transition: all 0.3s ease;
@@ -217,6 +217,12 @@ ul li {
 /* ***************** HOME INTRO ***************** */
 .home-intro {
   padding: 175px 0;
+  height: 100vh;
+}
+
+.home-intro h2 {
+  font-weight: 800;
+  font-size: 64px;
 }
 
 .home-intro .content h2 .color-highlight {
@@ -571,4 +577,110 @@ footer ul li {
 
 footer ul li a i {
   margin-right: 10px;
+}
+
+/* ***************** RESPONSIVE ***************** */
+
+@media screen and (max-width: 968px) {
+  .home-intro .content h2 {
+    font-size: 40px;
+  }
+
+  .process-work .col-md-6 .content {
+    margin-bottom: 30px;
+  }
+
+  .process-work .col-md-6:nth-last-child(-1n + 2) .content {
+    margin-bottom: 0;
+  }
+
+  .news .content h4 {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar .navbar-nav {
+    background-color: white;
+    box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 15px 15px;
+    border-top: 0;
+    outline: none;
+    padding: 14px 10px;
+    text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    margin-left: 15px;
+  }
+
+  .home-intro .content-image img {
+    margin-top: 45px;
+    float: none;
+  }
+
+  .process-work .col-sm-12 .content {
+    margin-bottom: 30px;
+  }
+
+  .process-work .col-sm-12:nth-last-child(-1n + 2) {
+    margin-bottom: 0;
+  }
+
+  .services .row:first-child {
+    margin-bottom: 0;
+  }
+
+  .services .row:last-child .col-sm-12:last-child .content {
+    margin-bottom: 0;
+  }
+
+  .services .content {
+    margin-bottom: 30px;
+  }
+
+  .news .col-sm-12 .row .col-sm-12:nth-last-child(1) .content {
+    margin-bottom: 0;
+  }
+
+  .words-section .content .button-wrap {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .contact form {
+    margin-top: 40px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .col-sm-6 .content {
+    margin-bottom: 30px;
+  }
+
+  footer .col-sm-6:nth-last-child(-1n + 2) .content {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-intro {
+    padding-top: 18vh;
+  }
+  .process-work .col-12:last-child .content {
+    margin-bottom: 0;
+  }
+
+  .process-work .col-12:nth-last-child(2) .content {
+    margin-bottom: 30px;
+  }
+
+  footer .col-12:nth-last-child(2) .content {
+    margin-bottom: 30px;
+  }
 }
