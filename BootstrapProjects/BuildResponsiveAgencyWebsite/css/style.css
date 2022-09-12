@@ -532,3 +532,43 @@ ul li {
 .contact form textarea:focus::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
+
+/* ***************** FOOTER ***************** */
+footer {
+  background-color: #020312;
+  padding: 90px 0 80px;
+}
+
+.footer-bottom {
+  background-color: #020312;
+  padding: 35px 0;
+  border-top: 1px solid #05346b;
+  text-align: center;
+}
+
+footer .brand {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+footer .brand img {
+  width: 55px;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer li a {
+  color: #717e96;
+}
+
+footer ul li {
+  margin: 8px 0;
+}
+
+footer ul li a i {
+  margin-right: 10px;
+}
